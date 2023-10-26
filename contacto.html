@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto meettech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header-->
+    <header style="background-image: url('img/2.png');">
+     <div class="container">
+        <nav>
+           <a href="index.html">
+              <img src="img/mt branco 3.png" alt="logo">
+           </a>
+           <ul class="ul">
+             <a href="index.html">Home</a>
+             <a href="sobre.html">Sobre</a>
+             <a href="serviços.html">serviços</a>
+             <a class="btn" href="contacto.html">contacto</a>
+             <div class="close-icon" onclick="closeMenu()">
+                <i class="fa fa-times-circle"></i>
+             </div>
+           </ul>
+           <div class="menu-icon" onclick="openMenu() ">
+            <i class="fa fa-bars"></i>
+           </div>
+        </nav>
+        <section class="banner">
+            <div class="banner-text">
+                <h1>Contacte-nos</h1>
+                <p>
+                    Entre em contacto com o nosso time e eles irão te retornar em 
+                    tempo recorde, para tirar o seu negócio do papel!.
+                </p>
+            </div>
+        </section>
+     </div>
+    </header>
+    <!--end header-->
+   <section class="contacto">
+    <div class="container">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d246.323190605876!2d13.149596535880875!3d-8.956381280788545!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a522181aa871add%3A0xa0dfbfba3d49ed6e!2sAdministra%C3%A7%C3%A3o%20Municipal%20De%20Benfica!5e0!3m2!1spt-PT!2sao!4v1694283855221!5m2!1spt-PT!2sao" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contacto-info">
+            <div class="left-side">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p>Estamos localizados dois quarteirões átras
+                        da administração municipal do Benfica.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-open"></i>
+                    <p>techmeet554@gmail.com</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+244 945 405 691</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+244 927 874 346</p>
+                </div>
+            </div>
+            <div class="right-side">
+                <form method="POST" action="./email.php">
+                    <input type="text" name="name" placeholder="Nome">
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="text" name="text" placeholder="Assunto" required>
+                    <textarea cols="30" rows="10" name="message" placeholder="Sua Mensagem" required></textarea>
+                    <input class="btn " type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+   </section>
+   <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="https://www.facebook.com/profile.php?id=61551398144835"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/meet_tech_?t=IGiE8VNtlO7bddZmYcgwZg&s=09"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=1mogdyqy7yrda&utm_content=s6zg8y2"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+            <p>Desenvolvido pela Meet Tech</p>
+        </div> 
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

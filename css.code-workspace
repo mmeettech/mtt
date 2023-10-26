@@ -1,0 +1,141 @@
+{
+	"folders": [
+		{
+			"path": "css"
+		},
+		{
+			"path": "img"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "MV"
+		}
+	]
+}
+
+<section class="faça-mais">
+<div class="container">
+	<div class="faça-mais-text">
+		<h3>Faça mais com a MeetTech!</h3>
+		<p>
+		É aqui que a Meet Tech entra em cena, como uma força motriz na vanguarda do marketing digital.
+		</p>
+		<a href="contacto.html" class="btn animate-btn">Entrar em contacto</a>
+	</div>
+	<div class="faça-mais-img">
+		<img src="img/cirok_2-removebg-preview.png" alt="">
+	</div>
+</div>
+</section>
+<section class="faça-mais">
+<div class="container">
+	<div class="faça-mais-img">
+		<img src="img/ciro-removebg-preview.png" alt="">
+	</div>
+	<div class="faça-mais-text">
+		<h3>Ter um website nunca foi tão fácil!</h3>
+		<p>
+			  Somos uma empresa comprometida com a excelência e especializada em ajudar empresas, 
+			  influencers e usuarios de redes sociais de todos os tamanhos para prósperar na paisagem digital competitiva.
+		</p>
+		<a href="contacto.html" class="btn animate-btn">Entrar em contacto</a>
+	</div>
+</div>
+</section>
+<section class="depoimentos">
+ <div class="container">
+	  <h3>Nossos Depoimentos</h3>
+	  <p>
+		 O Que Nos Define: Na Meet Tech, é que, acreditamos que cada empresa é única e merece uma abordagem personalizada para atingir seus objetivos online.
+	  </p>
+	  <div class="cards">
+		<!--card item -->
+		<div class="card-item">
+			<img src="img/wallpapersden.com_galaxies-pixel-art_320x320.jpg" alt="matengo">
+			<p class="nome-user">Samara</p>
+			<p class="depoimento-user">
+				Responsável por liderar a estratégia de marketing digital 
+				da empresa, definir metas e objetivos, e supervisionar a 
+				equipe de marketing . Eles tomarão decisões estratégicas 
+				para o crescimento da empresa online.
+			</p>
+			<div class="estrelas">
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o" aria-hidden="true"></i>
+			</div>
+		</div>
+		<!--end card item-->
+		<!--card item 2-->
+		<div class="card-item">
+			<img src="img/wallpapersden.com_landscape-pixel-art_320x320.jpg" alt="matengo">
+			<p class="nome-user">Belivio</p>
+			<p class="depoimento-user">
+				Trabalha diretamente com os clientes para entender suas 
+				necessidades, definir metas e estratégias personalizadas 
+				e garantir que as campanhas de marketing atendam às 
+				expectativas e entreguem resultados.
+			</p>
+			<div class="estrelas">
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o" aria-hidden="true"></i>
+			</div>
+		</div>
+		<!--end card item 2-->
+		<!--card item 3-->
+		<div class="card-item">
+			<img src="img/wallpapersden.com_stargazing-hd-pixel-art_320x320.jpg" alt="matengo">
+			<p class="nome-user">José</p>
+			<p class="depoimento-user">
+				Otimiza o conteúdo e a estrutura do site para melhorar 
+				a classificação nos mecanismos de busca, aumentando a 
+				visibilidade online e atraindo o tráfego orgânico. 
+				E ajuda a potencializar o seu negócio.
+			</p>
+			<div class="estrelas">
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o" aria-hidden="true"></i>
+			</div>
+		</div>
+		<!--end card item 3-->
+	  </div>
+ </div>
+</section>
+<section class="clientes">
+<div class="container">
+	<h3>Alguns locais que nós operamos!</h3>
+	<p>Estes são alguns locais que nos operamos. </p>
+	<div>
+		<img src="img/apple.png" alt="">
+		<img src="img/microsoft.png" alt="">
+		<img src="img/slack.png" alt="">
+		<img src="img/google.png" alt="">
+	</div>
+</div>
+</section>
+<section class="faça-mais">
+<div class="container">
+	<div class="faça-mais-text">
+		<h3>Tenha um website seguro!</h3>
+		<p>
+			 Nossa equipe apaixonada e experiente de profissionais de marketing digital 
+			 é dedicada a desenvolver estratégias sob medida que atendam às necessidades específicas de nossos clientes. 
+
+		</p>
+		<a href="contacto.html" class="btn animate-btn">Entrar em contacto</a>
+	</div>
+	<div class="faça-mais-img">
+		<img src="img/rock roxo.png" alt="">
+	</div>
+</div>
+</section>0
